@@ -14,3 +14,6 @@ Using RNN (Recurrent Neural Network):
 Price of the stock on a particular day depends on previous n days of price of the stock. 
 How to train the RNN? We can train the RNN using gradient descent (start with random parameters of the model and train using GD to build a good model).
 
+Opinions are central to almost all human activities and are key influencers of our behaviors. When people make a decision they often refer to the opinions of others. This is true not only for individuals but also for organizations. It is known that the stock market is made up of individuals. Individuals’ market behaviors will be affected by their own mood states [4], and the public mood state is reflected by individual’s mood state.
+Thus, stock market shall have some relation with public mood state.  Mining public mood states is an excellent area for sentiment analysis.
+Given a stock price time series, for each time interval we classify price movement as "up," "down," or (approximately) "unchanged" relative to the volatility of the stock and the change in a relevant index. 
